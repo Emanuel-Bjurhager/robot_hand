@@ -112,8 +112,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Angle to PWM middle(SubVI).vi" Type="VI" URL="../Angle to PWM middle(SubVI).vi"/>
 		<Item Name="Angle to PWM ring (SubVI).vi" Type="VI" URL="../Angle to PWM ring (SubVI).vi"/>
 		<Item Name="Angle to PWM thumb (SubVI).vi" Type="VI" URL="../Angle to PWM thumb (SubVI).vi"/>
+		<Item Name="angletest.vi" Type="VI" URL="../../../../Desktop/angletest.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Recieve IP.vi" Type="VI" URL="../Recieve IP.vi"/>
 		<Item Name="String to bit (SubVI).vi" Type="VI" URL="../String to bit (SubVI).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

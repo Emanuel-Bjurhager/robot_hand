@@ -21,6 +21,8 @@ while 1 == 1:
     time.sleep(1)
     sock.sendto(bytes(str("1000000"), "utf-8"), (UDP_IP, UDP_PORT))
     time.sleep(1)
+    sock.sendto(bytes(str("0000000"), "utf-8"), (UDP_IP, UDP_PORT))
+    time.sleep(1)
 
     #Test every finger
     sock.sendto(bytes(str("1110000"), "utf-8"), (UDP_IP, UDP_PORT))
@@ -48,15 +50,6 @@ while 1 == 1:
     sock.sendto(bytes(str("1110000"), "utf-8"), (UDP_IP, UDP_PORT))
     time.sleep(1)
 
-    #Do some signs
-    sock.sendto(bytes(str("1110110"), "utf-8"), (UDP_IP, UDP_PORT)) #Rock sign
-    time.sleep(1)
-
-    sock.sendto(bytes(str("1110011"), "utf-8"), (UDP_IP, UDP_PORT)) #Victory sign
-    time.sleep(1)
-
-    sock.sendto(bytes(str("1110001"), "utf-8"), (UDP_IP, UDP_PORT)) #Hunger games
-    time.sleep(1)
 
     sock.sendto(bytes(str("0000000"), "utf-8"), (UDP_IP, UDP_PORT)) #End with open
     time.sleep(2)
