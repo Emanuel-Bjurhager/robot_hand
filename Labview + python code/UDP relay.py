@@ -8,7 +8,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP
 
 
 #Read from component 2
-UDP_IP = "127.0.0.1"
+UDP_IP = "10.132.191.224"
 UDP_PORT = 1337
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP
